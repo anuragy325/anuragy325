@@ -1,0 +1,61 @@
+/add sum two number
+integer a=12;
+integer b=76;
+integer sum =a+b;
+    system.debug(a+b );
+list<string>anurag=new list<string>();
+anurag.add('radha');
+anurag.add('hema');
+anurag.add('anurag');
+anurag.add('krishna');
+system.debug(anurag);
+anurag.remove(2);
+system.debug(anurag);
+system.debug('my place velue is+anurag' );
+// single line comment;
+/*multipal line comment*/
+//two veribals equls
+integer velue1=99;
+integer velue2=29;
+if(velue1==velue2)
+    system.debug('they are equle');
+else if (velue1!=velue2)
+     system.debug('they are not equle');
+integer m=5;
+integer n=7;
+if ( m>n){
+system.debug('m is grater then n');
+} else {
+    system.debug('m is less then n'); }
+//st 
+set<integer>acc=new set<integer>();
+    acc.add(37);
+    acc.add(56);
+    acc.add(98);
+    acc.add(87);
+    system.debug(acc);
+  /*map
+loop=repeat task
+four type of loop
+for loop
+while loop
+do while loop
+for each loop*/
+
+ integer i=0;
+while(i<5) {
+    system.debug('anurag');
+    i=i+1;
+}
+integer j=1;
+while(j<6){
+     system.debug(j);
+    j=j+1;
+}
+//do while loop 
+integer s=0;
+do{
+    system.debug(s);
+    s=s+1;
+}while(s<6);
+
